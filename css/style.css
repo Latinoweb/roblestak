@@ -19,7 +19,7 @@ body{
 .icons a{
     font-size: 20px;
     transition: color 1s ease;
-    color: rgb(124, 120, 120);
+    color: white;
 }
 
 .icons a:hover{
@@ -279,8 +279,8 @@ body{
     width: 30%;
     height: 2px;
     display: block;
-   
-    background-color:#fff;
+    background: block;
+    background-color:black;
     border-radius: 50%;
     margin: 1%;
     margin-left: 35%;
@@ -320,4 +320,44 @@ body{
     font-weight: 700;
     margin-bottom: 21px;
     color: black;
+}
+
+.left-service-item p{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.right-service-item{
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    margin-top: 35px;
+    text-align: left;
+}
+
+.right-icon{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    color: black;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.right-service-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: black;
+}
+
+.right-service-item p{
+    color:black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height:25px;
 }
