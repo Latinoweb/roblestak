@@ -373,7 +373,7 @@ body{
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background: url('/bilder/city.jpg');
+    background: url('../bilder/city.jpg');
     background-size: cover;
 }
 
