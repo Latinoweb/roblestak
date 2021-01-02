@@ -28,7 +28,7 @@
     <div class="container-fluid icons py-2 px-3">
         <div class="row">
             <div class="col d-flex justify-content-between align-items-baseline">
-                <div class="iconos">
+                <div class="iconos ms-auto">
                     <a href="#" class="mx-2"><i class="fa fa-facebook-f"></i></a>
                     <a href="#" class="mx-2"><i class="fa fa-instagram"></i></a>
                     <a href="#" class="mx-2"><i class="fa fa-twitter"></i></a>
@@ -45,12 +45,43 @@
         </div>
     </div>
     <header id="header">
-        <nav id="navbar" class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="bilder/logo.png" alt="centrar imagen" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Hem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Om Oss</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Project</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Våra Tjänster</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Kontakta Oss</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Sök</button>
+      </form>
+    </div>
+  </div>
+</nav>
+       <!-- <nav id="navbar" class="navbar navbar-expand-md">
             <a class="navbar-brand px-2 py-0" href="index.html">Robles Tak</a>
-            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbar">
-                <!-- <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbar">
                 <ul class="navbar-nav mx-auto">
@@ -81,7 +112,7 @@
                     </div>
                 </form>
             </div>
-        </nav>
+        </nav>-->
         <!--Banner-->
         <section>
             <div class="container-fluid">
@@ -323,14 +354,14 @@
         </div>
     </section>
     <!--End of Services-->
-   
+
     <!--Kontakta oss-->
     <section class="contact">
         <div class="content">
             <h2>Kontakta oss</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, modi. 
-            In quis ipsa, eveniet deleniti dolores suscipit atque amet minus ullam magni 
-            commodi dignissimos qui?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, modi.
+                In quis ipsa, eveniet deleniti dolores suscipit atque amet minus ullam magni
+                commodi dignissimos qui?</p>
         </div>
         <div class="container">
             <div class="contactInfo">
@@ -338,24 +369,24 @@
                     <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
                     <div class="text">
                         <h3>Adress</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur 
-                        adipisicing elit. Et, doloremque.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Et, doloremque.</p>
                     </div>
-                </div>    
-                      <div class="box">
+                </div>
+                <div class="box">
                     <div class="icon"><i class="fa fa-mobile-alt"></i></div>
                     <div class="text">
                         <h3>Telefon</h3>
                         <p>070-9445744</p>
                     </div>
-                </div>      
-                 <div class="box">
+                </div>
+                <div class="box">
                     <div class="icon"><i class="fa fa-envelope-open"></i></div>
                     <div class="text">
                         <h3>Email</h3>
                         <p>ifo@info.com</p>
                     </div>
-                </div>         
+                </div>
             </div>
             <div class="contactForm">
                 <form>
@@ -364,22 +395,22 @@
                         <input type="text" name="namn" required="required">
                         <span>Namn</span>
                     </div>
-                      <div class="inputBox">
+                    <div class="inputBox">
                         <input type="text" name="email" required="required">
                         <span>Email</span>
                     </div>
-                      <div class="inputBox">
+                    <div class="inputBox">
                         <textarea required="required"></textarea>
                         <span>Skriv ditt meddelande...</span>
                     </div>
-                      <div class="inputBox">
-                        <input type="submit" name="skicka" value="Skicka">                        
+                    <div class="inputBox">
+                        <input type="submit" name="skicka" value="Skicka">
                     </div>
                 </form>
             </div>
         </div>
     </section>
-    
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

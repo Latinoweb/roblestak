@@ -11,15 +11,15 @@ body{
 /*Icons Section*/
 
 .icons{
-    background: orange;
+    background: white;
     text-decoration: none;
-    color: #ffff;
+    color: black;
 }
 
 .icons a{
     font-size: 20px;
     transition: color 1s ease;
-    color: white;
+    color: black;
 }
 
 .icons a:hover{
@@ -38,13 +38,18 @@ body{
 }
 
 .top-bar-info li {
-    color: rgb(255, 255, 255);
+    color: lack;
     list-style-type: none;
     padding-right: 10px;
     letter-spacing: 1.5px;
     display: inline-block;
     margin-bottom: 0px;
     font-size: 14px;
+}
+/*--logo--*/
+.logo{
+    width: 100px;
+    height: 100px;
 }
 
 /*----Navbar----*/
@@ -500,6 +505,10 @@ body{
     font-size: 18px;
 }
 
+@media (max-width:375px) {
+    .logo{
+        margin-left: 110px;
+    }
 
 
 @media (max-width:991px) {
