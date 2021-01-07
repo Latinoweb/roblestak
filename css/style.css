@@ -189,20 +189,90 @@ body{
     color:#01012e;
 }
 
-/*Project section*/
+/*Portfolio section*/
 
+.portfolio{
+padding: 20px ;
+width:  auto;
+margin: 40px auto;
+background-color: #01012e;
+}
+
+.portfolio ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+.portfolio ul li.hover{
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+.portfolio ul li{
+    list-style: none;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #03a9f4;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.portfolio ul li.active{
+    background: #03a9f4;
+    color: #fff;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .itembox{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.product .itembox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fotos{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+/*End Portfolio*/
+
+/*Project section*/
 .projects{
     background: #01012e;
     color: #fff;
-
 }
 
 .projects .title-border{
     content: "";
     width: 30%;
     height: 2px;
-    display: block;
-   
+    display: block; 
     background-color:#fff;
     border-radius: 50%;
     margin: 1%;
@@ -258,7 +328,6 @@ body{
     left: 0;
 }
 
-
 .project-container .content h3{
     font-size: 20px;
 }
@@ -270,7 +339,6 @@ body{
     transition: 0.5s;
     text-align: justify;
 }
-
 
 .project-container:hover .content p{
     opacity: 1;
@@ -306,7 +374,6 @@ body{
     margin-bottom: 65px;
     text-align: right;
     margin-top: 35px;
-
 }
 
 .left-icon{
@@ -509,7 +576,7 @@ body{
     .logo{
         margin-left: 110px;
     }
-
+}
 @media (max-width:991px) {
     .contact{
         padding: 50px;
